@@ -1,8 +1,9 @@
-# Student Record Manager
+# Student Record Management System
 
-A simple Tkinter & MySQL desktop application for student records.
+A minimal, dark-themed Tkinter desktop application connected to Supabase PostgreSQL.
+
+## Requirements
+`pip install psycopg2-binary`
 
 ## How to Run
-1. Install connector: `pip install mysql-connector-python`
-2. Update MySQL password in `main.py` if your MySQL root has a password (`DB_PASS`).
-3. Run the application: `python main.py` (database and table are created automatically!).
+`python main.py`
