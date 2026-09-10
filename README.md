@@ -1,4 +1,4 @@
-﻿<h1 align="center">🎓 Student Record Management System</h1>
+<h1 align="center">🎓 Student Record Management System</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -98,9 +98,9 @@ git clone https://github.com/rajishan2007-web/Student-Record-Management-System.g
 cd Student-Record-Management-System
 ```
 
-**2. Install the only dependency**
+**2. Install dependencies**
 ```bash
-pip install psycopg2-binary
+pip install -r requirements.txt
 ```
 
 **3. Launch the application**
@@ -118,6 +118,7 @@ python main.py
 Student-Record-Management-System/
 │
 ├── main.py           # Main application file (UI + DB logic)
+├── requirements.txt  # Python dependencies
 ├── screenshot.jpg    # Application screenshot
 ├── .gitignore        # Git ignore rules
 └── README.md         # Project documentation
